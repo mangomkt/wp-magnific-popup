@@ -1,11 +1,11 @@
 <?php
 /*
-Plugin Name: WP Magnific Popup
+Plugin Name: WP Mag-Pop
 Plugin URI: https://github.com/mangomkt/wp-magnific-popup
 Description: Adding magnific functionality to WP.
 Author: Curtis Grant
 Author URI: https://www.mangomkt.com/
-Version: 0.3
+Version: 0.4
 */
 function wpmp_scripts() {
 
