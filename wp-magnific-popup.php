@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: WP Magnific Popup
+Plugin Name: WP Mag-Pop
 Plugin URI: https://github.com/mangomkt/wp-magnific-popup
 Description: Adding magnific functionality to WP.
 Author: Curtis Grant
