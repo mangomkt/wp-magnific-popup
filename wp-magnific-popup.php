@@ -5,7 +5,7 @@ Plugin URI: https://github.com/mangomkt/wp-magnific-popup
 Description: Adding magnific functionality to WP.
 Author: Curtis Grant
 Author URI: https://www.mangomkt.com/
-Version: 0.4
+Version: 0.5
 */
 function wpmp_scripts() {
 
