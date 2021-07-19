@@ -10,7 +10,7 @@ Version: 0.4
 function wpmp_scripts() {
 
 	wp_enqueue_script( 'magpop-js', plugin_dir_url( __FILE__ ) . 'js/magpop.js',array('jquery'), '1.0', true);
-	wp_enqueue_script( 'magpop-js', plugin_dir_url( __FILE__ ) . 'js/common-magpop.js',array('jquery'), '1.0', true);
+	wp_enqueue_script( 'common-magpop', plugin_dir_url( __FILE__ ) . 'js/common-magpop.js',array('magpop-js'), '1.0', true);
 	wp_enqueue_style( 'magpop-css', plugin_dir_url( __FILE__ ) . 'css/magpop.css', '1.0', true);	
 
 }
