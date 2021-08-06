@@ -3,7 +3,7 @@ jQuery( window ).load(function() {
     jQuery(this).find("a").addClass('popup-inline');
   });
 });
-jQuery(document).on("click", "'.sidr-class-popup-inline,.popup-inline,.open-popup-link'", function(e) {
+jQuery(document).on("click", ".sidr-class-popup-inline,.popup-inline,.open-popup-link", function(e) {
   e.preventDefault();
   jQuery(this).magnificPopup({
     type: 'inline',
