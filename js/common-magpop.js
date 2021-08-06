@@ -1,9 +1,13 @@
-jQuery( window ).load(function() {
-  jQuery('.sidr-class-popup-inline,.popup-inline, .popup-inline a,.open-popup-link').magnificPopup({
+jQuery(document).on("click", "'.sidr-class-popup-inline,.popup-inline,.open-popup-link'", function(e) {
+  e.preventDefault();
+  jQuery(this).magnificPopup({
     type: 'inline',
     closeMarkup: '<button title="%title%" type="button" class="mfp-close" >close</button>',
     midClick: true
-  });
+  }).magnificPopup('open');
+});
+jQuery('.add-popup-inline').each(function() {
+  jQuery(this).find("a").addClass('popup-inline');
 });
 jQuery('.popup-video, .video-link').each(function() {
   var jQuerythis = jQuery(this);
