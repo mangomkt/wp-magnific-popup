@@ -1,5 +1,5 @@
 jQuery( window ).load(function() {
-  jQuery('.sidr-class-popup-inline,.popup-inline,.open-popup-link').magnificPopup({
+  jQuery('.sidr-class-popup-inline,.popup-inline, .popup-inline a,.open-popup-link').magnificPopup({
     type: 'inline',
     closeMarkup: '<button title="%title%" type="button" class="mfp-close" >close</button>',
     midClick: true
