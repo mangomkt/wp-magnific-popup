@@ -1,3 +1,8 @@
+jQuery( window ).load(function() {
+  jQuery('.add-popup-inline').each(function() {
+    jQuery(this).find("a").addClass('popup-inline');
+  });
+});
 jQuery(document).on("click", "'.sidr-class-popup-inline,.popup-inline,.open-popup-link'", function(e) {
   e.preventDefault();
   jQuery(this).magnificPopup({
@@ -6,9 +11,7 @@ jQuery(document).on("click", "'.sidr-class-popup-inline,.popup-inline,.open-popu
     midClick: true
   }).magnificPopup('open');
 });
-jQuery('.add-popup-inline').each(function() {
-  jQuery(this).find("a").addClass('popup-inline');
-});
+
 jQuery('.popup-video, .video-link').each(function() {
   var jQuerythis = jQuery(this);
   var startT = jQuerythis.data('start');
